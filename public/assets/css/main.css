@@ -2062,7 +2062,7 @@ hr {
 
 .footer .copyright-text {
   margin-top: 0;
-  color: #bab3e2;
+  color: inherit;
   font-weight: 400;
 }
 
