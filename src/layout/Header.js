@@ -75,63 +75,15 @@ const Header = () => {
                   {/* menu full */}
                   <div className="menu-full">
                     <ul className="menu-full">
-                      <li
-                        className={`menu-item menu-item-has-children has-children ${subMenuOpened(
-                          "home"
-                        )}`}
-                      >
-                        <a
-                          className="splitting-text-anim-2 words chars splitting"
-                          data-splitting="chars"
-                          href="#"
-                          onClick={(e) => subMenuClick(e, "home")}
-                        >
-                          Home
-                        </a>
-                        <ul className="sub-menu" style={subMenuHeight("home")}>
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Parallax Slider
-                              </a>
-                            </Link>
-                          </li>
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/home-grid-slider">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Grid Slider
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/home-grid-fully-slider">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Blur Horizontal Slider
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/home-portfolio">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Portfolio Grid
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
+                      <li className="menu-item">
+                        <Link legacyBehavior href="/">
+                          <a
+                            className="splitting-text-anim-2"
+                            data-splitting="chars"
+                          >
+                            Home
+                          </a>
+                        </Link>
                       </li>
                       <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
@@ -264,7 +216,7 @@ const Header = () => {
           {/* social */}
           <div className="menu-social-links">
             <a
-              href="https://instagram.com/"
+              href="https://instagram.com/socreativephoto"
               target="blank"
               className="scrolla-element-anim-1"
               title="Instagram"
@@ -272,7 +224,7 @@ const Header = () => {
               Instagram
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://facebook.com/socreativephoto"
               target="blank"
               className="scrolla-element-anim-1"
               title="Facebook"
@@ -280,20 +232,12 @@ const Header = () => {
               Facebook
             </a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/socreativephoto"
               target="blank"
               className="scrolla-element-anim-1"
               title="Twitter"
             >
               Twitter
-            </a>
-            <a
-              href="https://linkedin.com/"
-              target="blank"
-              className="scrolla-element-anim-1"
-              title="Linkedin"
-            >
-              Linkedin
             </a>
           </div>
         </div>

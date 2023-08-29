@@ -74,7 +74,7 @@ const Footer = () => {
                   data-animate="active"
                 >
                   <p>
-                    socreativephoto@gmail.com.com
+                    socreativephoto@gmail.com
                   </p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Copyright © 2023 Socreative Photography
+                © 2023 Socreative Photography
               </div>
             </div>
           </div>
