@@ -10,12 +10,12 @@ const Index = () => {
       <div className="wrapper">
         {/* Section Hero Main Slider */}
         <Swiper {...home1SliderProps} className="section hero-main-slider">
-          <SwiperSlide className="swiper-slide" data-color="dark">
+          <SwiperSlide className="swiper-slide" data-color="white">
             {/* image */}
             <div
               className="slide"
               style={{
-                backgroundImage: "url(assets/images/started-n26-1920x1080.jpg)",
+                backgroundImage: "url(assets/images/landscape-photography-hd.jpg)",
               }}
             />
             {/* slide titles */}
@@ -23,21 +23,19 @@ const Index = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
-                  <div className="titles dark">
-                    <div className="label scrolla-element-anim-1">branding</div>
+                  <div className="titles">
+                    <div className="label scrolla-element-anim-1">photography</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Melanin <br />
-                        Goddess
+                        Landscape <br />
+                        photographer
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Creativity is to discover a question that has never been
-                      asked. If one brings up an idiosyncratic question, the
-                      answer he gives will necessarily be unique as well.
+                      Dorset based landscape and commercial photographer
                     </div>
                   </div>
                   <div className="more-bts">
@@ -46,7 +44,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        see details
+                        Find out more
                       </a>
                     </Link>
                   </div>
