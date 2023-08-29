@@ -6,10 +6,10 @@ const Contacts = () => {
     <Layout>
       <div className="wrapper">
         {/* Section Started Heading */}
-        <PageTitle title="Contact Us" />
+        {/* <PageTitle title="Get in touch" /> */}
 
         {/* Section Image Large */}
-        <div
+        {/* <div
           className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
@@ -19,7 +19,7 @@ const Contacts = () => {
               style={{ backgroundImage: "url(assets/images/contact.jpg)" }}
             />
           </div>
-        </div>
+        </div> */}
         {/* Section Contacts Form */}
         <div className="section section-inner m-contacts-form">
           <div className="container">
@@ -99,7 +99,7 @@ const Contacts = () => {
                 </div>
                 {/* services */}
                 <div className="services-items row">
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                  {/* <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div
                       className="services-item scrolla-element-anim-1 scroll-animate"
                       data-animate="active"
@@ -110,19 +110,7 @@ const Contacts = () => {
                       <div className="name">Phone:</div>
                       <div className="text">+1 (800) 123 56 89</div>
                     </div>
-                  </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
-                      <div className="icon">
-                        <i aria-hidden="true" className="fas fa-at" />
-                      </div>
-                      <div className="name">E-mail:</div>
-                      <div className="text">aster@domain.com</div>
-                    </div>
-                  </div>
+                  </div> */}
                   <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div
                       className="services-item scrolla-element-anim-1 scroll-animate"
@@ -136,7 +124,7 @@ const Contacts = () => {
                       </div>
                       <div className="name">Location:</div>
                       <div className="text">
-                        Marollem St. 32, New York, USA.
+                        Poole, Dorset, UK
                       </div>
                     </div>
                   </div>

@@ -85,7 +85,7 @@ const Header = () => {
                           </a>
                         </Link>
                       </li>
-                      <li
+                      {/* <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
                           "about"
                         )}`}
@@ -120,72 +120,72 @@ const Header = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
-                          "Works"
+                          "Portfolio"
                         )}`}
                       >
                         <a
                           className="splitting-text-anim-2 words chars splitting"
                           data-splitting="chars"
                           href="#"
-                          onClick={(e) => subMenuClick(e, "Works")}
+                          onClick={(e) => subMenuClick(e, "Portfolio")}
                         >
-                          Works
+                          Portfolio
                         </a>
-                        <ul className="sub-menu" style={subMenuHeight("Works")}>
+                        <ul className="sub-menu" style={subMenuHeight("Portfolio")}>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/works-2-column">
+                            <Link legacyBehavior href="/landscape-photography">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
                               >
-                                Works (2 Columns)
+                                Landscapes
                               </a>
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/works-3-column">
+                            <Link legacyBehavior href="/portrait-photography">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
                               >
-                                Works (3 Columns)
+                                Portraits
                               </a>
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/works-creative">
+                            <Link legacyBehavior href="/glamour">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
                               >
-                                Works (Creative)
+                                Glamour
                               </a>
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/gallery-2-column">
+                            <Link legacyBehavior href="/editorial">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
                               >
-                                Gallery (2 Columns)
-                              </a>
-                            </Link>
-                          </li>
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/gallery-3-column">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Gallery (3 Columns)
+                                Editorial
                               </a>
                             </Link>
                           </li>
                         </ul>
+                      </li>
+                      <li className="menu-item">
+                        <Link legacyBehavior href="/workshops">
+                          <a
+                            className="splitting-text-anim-2"
+                            data-splitting="chars"
+                          >
+                            Workshops
+                          </a>
+                        </Link>
                       </li>
                       <li className="menu-item">
                         <Link legacyBehavior href="/contacts">
@@ -194,16 +194,6 @@ const Header = () => {
                             data-splitting="chars"
                           >
                             Contact
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="menu-item">
-                        <Link legacyBehavior href="/blog">
-                          <a
-                            className="splitting-text-anim-2"
-                            data-splitting="chars"
-                          >
-                            Blog
                           </a>
                         </Link>
                       </li>
