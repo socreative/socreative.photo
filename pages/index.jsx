@@ -15,7 +15,7 @@ const Index = () => {
             <div
               className="slide"
               style={{
-                backgroundImage: "url(assets/images/landscape-photography-hd.jpg)",
+                backgroundImage: "url(assets/images/photos/london-burning-sky.jpg)",
               }}
             />
             {/* slide titles */}
@@ -30,8 +30,7 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Landscape <br />
-                        photographer
+                        Landscapes
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
@@ -44,7 +43,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        Find out more
+                        see more
                       </a>
                     </Link>
                   </div>
@@ -57,7 +56,7 @@ const Index = () => {
             <div
               className="slide"
               style={{
-                backgroundImage: "url(assets/images/started-n15-1920x1080.jpg)",
+                backgroundImage: "url(assets/images/photos/portrait-summer.jpg)",
               }}
             />
             {/* slide titles */}
@@ -66,19 +65,17 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">branding</div>
+                    <div className="label scrolla-element-anim-1">photography</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Blue denim
+                        Portraits<br />
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Creativity is to discover a question that has never been
-                      asked. If one brings up an idiosyncratic question, the
-                      answer he gives will necessarily be unique as well.
+                      From fashion to family portraits in both natural light and photo studio 
                     </div>
                   </div>
                   <div className="more-bts">
@@ -87,7 +84,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        see details
+                        see more
                       </a>
                     </Link>
                   </div>
