@@ -98,7 +98,7 @@ const Index = () => {
               className="slide"
               style={{
                 backgroundImage:
-                  "url(assets/images/started-n2_4-1920x1080.jpg)",
+                  "url(assets/images/photos/glam.jpg)",
               }}
             />
             {/* slide titles */}
@@ -107,19 +107,18 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">art</div>
+                    <div className="label scrolla-element-anim-1">photography</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        The Dance
+                        Glamour
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Creativity is to discover a question that has never been
-                      asked. If one brings up an idiosyncratic question, the
-                      answer he gives will necessarily be unique as well.
+                      Elevate your allure with the glamour photography. <br />
+                      I specialize in capturing your elegance and confidence, producing timeless images that celebrate your unique beauty
                     </div>
                   </div>
                   <div className="more-bts">
@@ -128,7 +127,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        see details
+                        see more
                       </a>
                     </Link>
                   </div>
@@ -142,7 +141,7 @@ const Index = () => {
               className="slide"
               style={{
                 backgroundImage:
-                  "url(assets/images/started-n14_1-1000x1080.jpg)",
+                  "url(assets/images/photos/editorial.jpg)",
               }}
             />
             {/* slide titles */}
@@ -151,19 +150,17 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">art</div>
+                    <div className="label scrolla-element-anim-1">photography</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Negative Space
+                        Editorial
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Creativity is to discover a question that has never been
-                      asked. If one brings up an idiosyncratic question, the
-                      answer he gives will necessarily be unique as well.
+                      Discover the art of storytelling
                     </div>
                   </div>
                   <div className="more-bts">
@@ -172,7 +169,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        see details
+                        see more
                       </a>
                     </Link>
                   </div>

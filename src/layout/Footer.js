@@ -17,8 +17,8 @@ const Footer = () => {
                   className="h-text scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Ridgewood Queens, <br />
-                  NY 11385, USA
+                  Poole, <br />
+                  Dorset, UK
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="social-links footer-social-links">
                 <a
                   target="_blank"
-                  href="https://instagram.com/"
+                  href="https://instagram.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
@@ -44,7 +44,7 @@ const Footer = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://facebook.com/"
+                  href="https://facebook.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
@@ -52,19 +52,11 @@ const Footer = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://twitter.com/"
+                  href="https://twitter.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
                   <i aria-hidden="true" className="fab fa-twitter" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://linkedin.com/"
-                  className="scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <i aria-hidden="true" className="fab fa-linkedin-in" />
                 </a>
               </div>
             </div>
@@ -82,9 +74,7 @@ const Footer = () => {
                   data-animate="active"
                 >
                   <p>
-                    asteragency@domain.com
-                    <br />
-                    +012 (234) 567 78
+                    socreativephoto@gmail.com.com
                   </p>
                 </div>
               </div>
@@ -94,7 +84,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Copyright © 2022 Aster
+                Copyright © 2023 Socreative Photography
               </div>
             </div>
           </div>
