@@ -136,7 +136,7 @@ const Header = () => {
                         </a>
                         <ul className="sub-menu" style={subMenuHeight("Portfolio")}>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/landscape-photography">
+                            <Link legacyBehavior href="/landscape-gallery">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"

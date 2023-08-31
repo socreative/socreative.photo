@@ -35,14 +35,14 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 © 2023 Socreative Photography
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

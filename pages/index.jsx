@@ -38,7 +38,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="/landscape-gallery">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
