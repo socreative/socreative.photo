@@ -24,7 +24,7 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">photography</div>
+                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -34,7 +34,7 @@ const Index = () => {
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Dorset based landscape and commercial photographer
+                      Landscape and long exposure photography gallery
                     </div>
                   </div>
                   <div className="more-bts">
@@ -65,7 +65,7 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">photography</div>
+                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -107,7 +107,7 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">photography</div>
+                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -150,7 +150,7 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">photography</div>
+                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
