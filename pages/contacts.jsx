@@ -1,7 +1,39 @@
 import Footer from "../src/layout/Footer";
 import Layout from "../src/layout/Layout";
 import PageTitle from "../src/layout/PageTitle";
+import { useState } from 'react'
+
 const Contacts = () => {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    let data = {
+      name,
+      email,
+      message
+    }
+
+    setSubmitted(true)
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
+
   return (
     <Layout>
       <div className="wrapper">
@@ -31,11 +63,12 @@ const Contacts = () => {
                     className="m-title scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    Get in touch
+                    { !submitted && 'Get in touch' }
+                    { submitted && 'Thank you!' }
                   </div>
                 </div>
                 {/* contact form */}
-                <div className="contacts-form">
+                { !submitted && <div className="contacts-form">
                   <form id="cform" method="post">
                     <div className="group">
                       <div
@@ -46,6 +79,7 @@ const Contacts = () => {
                           type="text"
                           name="name"
                           placeholder="Full Name"
+                          onChange={(e)=>{setName(e.target.value)}}
                         />
                       </div>
                     </div>
@@ -58,6 +92,7 @@ const Contacts = () => {
                           type="text"
                           name="email"
                           placeholder="Email Address"
+                          onChange={(e)=>{setEmail(e.target.value)}}
                         />
                       </div>
                     </div>
@@ -70,6 +105,7 @@ const Contacts = () => {
                           name="message"
                           placeholder="Message"
                           defaultValue={""}
+                          onChange={(e)=>{setMessage(e.target.value)}}
                         />
                       </div>
                     </div>
@@ -77,16 +113,15 @@ const Contacts = () => {
                       className="submit scrolla-element-anim-1 scroll-animate"
                       data-animate="active"
                     >
-                      <a href="#" className="btn">
+                      <a href="#" className="btn" onClick={(e)=>{handleSubmit(e)}}>
                         Send a Message
                       </a>
                     </div>
                   </form>
-                  <div className="alert-success" style={{ display: "none" }}>
-                    <p>Thanks, your message is sent successfully.</p>
-                  </div>
                 </div>
+              }
               </div>
+              
             </div>
           </div>
         </div>

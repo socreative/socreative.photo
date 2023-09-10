@@ -952,12 +952,6 @@ hr {
   font-style: italic !important;
 }
 
-.alert-success {
-  color: #fff;
-  background: transparent;
-  border: none;
-}
-
 /* - Wrapper */
 
 @media (min-width: 1400px) {
