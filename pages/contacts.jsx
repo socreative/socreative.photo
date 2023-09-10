@@ -68,7 +68,7 @@ const Contacts = () => {
                   </div>
                 </div>
                 {/* contact form */}
-                { !submitted && <div className="contacts-form">
+                <div className={`contacts-form ${ submitted ? 'form-submitted' : ''}`}>
                   <form id="cform" method="post">
                     <div className="group">
                       <div
@@ -78,7 +78,7 @@ const Contacts = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="Full Name"
+                          placeholder="Full Name*"
                           onChange={(e)=>{setName(e.target.value)}}
                         />
                       </div>
@@ -91,7 +91,7 @@ const Contacts = () => {
                         <input
                           type="text"
                           name="email"
-                          placeholder="Email Address"
+                          placeholder="Email Address*"
                           onChange={(e)=>{setEmail(e.target.value)}}
                         />
                       </div>
@@ -103,7 +103,7 @@ const Contacts = () => {
                       >
                         <textarea
                           name="message"
-                          placeholder="Message"
+                          placeholder="Message*"
                           defaultValue={""}
                           onChange={(e)=>{setMessage(e.target.value)}}
                         />
@@ -119,7 +119,6 @@ const Contacts = () => {
                     </div>
                   </form>
                 </div>
-              }
               </div>
               
             </div>

@@ -4465,6 +4465,11 @@ body .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   position: relative;
 }
 
+.contacts-form.form-submitted {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .contacts-form .group,
 .form-comment .group,
 .comment-respond .group {
