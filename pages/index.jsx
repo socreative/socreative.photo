@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Layout from "../src/layout/Layout";
@@ -11,14 +12,16 @@ const Index = () => {
         {/* Section Hero Main Slider */}
         <Swiper {...home1SliderProps} className="section hero-main-slider">
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
-            <div
-              className="slide"
+            <Image
+              src="/assets/images/photos/london-burning-sky.jpg"
+              alt="Socreative Photography - Landscapes"
+              sizes="100vw"
               style={{
-                backgroundImage: "url(assets/images/photos/london-burning-sky.jpg)",
+                objectFit: 'cover',
               }}
+              fill
+              priority
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -52,14 +55,16 @@ const Index = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
-            <div
-              className="slide"
+            <Image
+              src="/assets/images/photos/portrait-summer.jpg"
+              alt="Socreative Photography - Portraits"
+              sizes="100vw"
               style={{
-                backgroundImage: "url(assets/images/photos/portrait-summer.jpg)",
+                objectFit: 'cover',
               }}
+              fill
+              priority
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -93,13 +98,15 @@ const Index = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
-            <div
-              className="slide"
+            <Image
+              src="/assets/images/photos/glam.jpg"
+              alt="Socreative Photography - Glamour Photography"
+              sizes="100vw"
               style={{
-                backgroundImage:
-                  "url(assets/images/photos/glam.jpg)",
+                objectFit: 'cover',
               }}
+              fill
+              priority
             />
             {/* slide titles */}
             <div className="slide-titles">
@@ -136,15 +143,16 @@ const Index = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
-            <div
-              className="slide"
+            <Image
+              src="/assets/images/photos/editorial.jpg"
+              alt="Socreative Photography - Editorial Photography"
+              sizes="100vw"
               style={{
-                backgroundImage:
-                  "url(assets/images/photos/editorial.jpg)",
+                objectFit: 'cover',
               }}
+              fill
+              priority
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
