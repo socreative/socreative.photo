@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head';
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Layout from "../src/layout/Layout";
@@ -8,6 +9,20 @@ import { home1SliderProps } from "../src/sliderProps";
 const Index = () => {
   return (
     <Layout>
+      <Head>
+        <title>
+          Dorset landscape, portrait and commercial photographer
+        </title>
+        <meta
+          name="description"
+          content="Professional photographer in Dorset. Landscape photography workshops. Portrait, editorial and commercial photography"
+          key="desc"
+        />
+        <meta name="keywords" content="Dorset landscape photographer, Dorset photography workshops, portrait photographer" />
+        <meta property="og:title" content="Dorset landscape, portrait and commercial photographer" />
+        <meta property="og:description" content="Dorset landscape photographer, Dorset photography workshops, portrait photographer" />
+        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/london-burning-sky.jpg" />
+      </Head>
       <div className="wrapper">
         {/* Section Hero Main Slider */}
         <Swiper {...home1SliderProps} className="section hero-main-slider">
@@ -101,6 +116,50 @@ const Index = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
             <Image
+              src="/assets/images/photos/editorial.jpg"
+              alt="Socreative Photography - Editorial Photography"
+              sizes="100vw"
+              style={{
+                objectFit: 'cover',
+              }}
+              quality={85}
+              fill
+              priority
+            />
+            <div className="slide-titles">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  {/* title */}
+                  <div className="titles">
+                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
+                    <div className="title">
+                      <span
+                        className="title-inner splitting-text-anim-2"
+                        data-splitting=""
+                      >
+                        Editorial
+                      </span>
+                    </div>
+                    <div className="subtitle scrolla-element-anim-1">
+                      Discover the art of storytelling
+                    </div>
+                  </div>
+                  <div className="more-bts">
+                    <Link legacyBehavior href="/">
+                      <a
+                        data-splitting=""
+                        className="btn more-btn scrolla-element-anim-1"
+                      >
+                        see more
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide" data-color="white">
+            <Image
               src="/assets/images/photos/glam.jpg"
               alt="Socreative Photography - Glamour Photography"
               sizes="100vw"
@@ -129,50 +188,6 @@ const Index = () => {
                     <div className="subtitle scrolla-element-anim-1">
                       Elevate your allure with the glamour photography. <br />
                       I specialize in capturing your elegance and confidence, producing timeless images that celebrate your unique beauty
-                    </div>
-                  </div>
-                  <div className="more-bts">
-                    <Link legacyBehavior href="/">
-                      <a
-                        data-splitting=""
-                        className="btn more-btn scrolla-element-anim-1"
-                      >
-                        see more
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide" data-color="white">
-            <Image
-              src="/assets/images/photos/editorial.jpg"
-              alt="Socreative Photography - Editorial Photography"
-              sizes="100vw"
-              style={{
-                objectFit: 'cover',
-              }}
-              quality={85}
-              fill
-              priority
-            />
-            <div className="slide-titles">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
-                  <div className="titles">
-                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
-                    <div className="title">
-                      <span
-                        className="title-inner splitting-text-anim-2"
-                        data-splitting=""
-                      >
-                        Editorial
-                      </span>
-                    </div>
-                    <div className="subtitle scrolla-element-anim-1">
-                      Discover the art of storytelling
                     </div>
                   </div>
                   <div className="more-bts">

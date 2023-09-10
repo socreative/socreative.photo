@@ -1,12 +1,13 @@
-import Isotope from "isotope-layout";
-import { useEffect, useRef, useState } from "react";
+import Isotope from 'isotope-layout';
+import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 const LandscapeGallery3 = () => {
   // Isotope
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
-  const [showLoading, setShowLoading] = useState(false);
-  let timer1 = setTimeout(() => setShowLoading(true), 1000);
+  const [showLoading, setShowLoading] = useState(true);
+  // let timer1 = setTimeout(() => setShowLoading(true), 1000);
   useEffect(() => {
     isotope.current = new Isotope(".works-items", {
       itemSelector: ".works-col",
@@ -76,26 +77,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/durdle-door.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/durdle-door.jpg"
                       alt="Durdle Door, Dorset"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Photography
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Astronaut
                   </span>
                 </span>
               </a>
@@ -109,26 +102,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/london-burning-sky.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/london-burning-sky.jpg"
                       alt="Westminster, London"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Art
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    The Dance
                   </span>
                 </span>
               </a>
@@ -142,26 +127,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/lake-disrtrict.jpg"
-                      alt="Melanin Goddess"
-                    />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Branding
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Melanin Goddess
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/lake-disrtrict.jpg"
+                      alt="Lake District"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
+                    />                    
                   </span>
                 </span>
               </a>
@@ -177,27 +154,20 @@ const LandscapeGallery3 = () => {
                 className="has-popup-image"
               >
                 <span className="image">
+                     
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/london-canary-wharf.jpg"
-                      alt="Blue denim"
-                    />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Branding
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Blue denim
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/london-canary-wharf.jpg"
+                      alt="London Canary Wharf"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
+                    />    
                   </span>
                 </span>
               </a>
@@ -214,26 +184,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/portland-bill.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/portland-bill.jpg"
                       alt="Portland Bill"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Art
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Negative space
                   </span>
                 </span>
               </a>
@@ -250,26 +212,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/canary-wharf-blue-hour.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/canary-wharf-blue-hour.jpg"
                       alt="Canary Wharf"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -286,26 +240,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/lake-district-2.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/lake-district-2.jpg"
                       alt="Lake District"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -322,26 +268,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/westminster-1.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/westminster-1.jpg"
                       alt="Westminster"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -358,26 +296,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/nash-point.jpg"
-                      alt="Nash Point, Wales"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/nash-point.jpg"
+                      alt="Nash Point"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -394,26 +324,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/Felixstowe_Pier_2.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/Felixstowe_Pier_2.jpg"
                       alt="Felixstowe"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -430,26 +352,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/nash-point-1.jpg"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/nash-point-1.jpg"
                       alt="Nash Point"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>
@@ -466,26 +380,18 @@ const LandscapeGallery3 = () => {
               >
                 <span className="image">
                   <span className="img">
-                    <img
-                      src="assets/images/photos/landscape/london-tower-bridge.jpg"
-                      alt="London, Tower bridge"
+                    <Image
+                      className="img-photo"
+                      src="/assets/images/photos/landscape/london-tower-bridge.jpg"
+                      alt="Tower Bridge"
+                      style={{
+                        objectFit: 'contain',
+                      }}
+                      quality={85}
+                      responsive
+                      fill
+                      priority
                     />
-                  </span>
-                </span>
-                <span className="desc">
-                  <span
-                    className="category splitting-text-anim-4 scroll-animate"
-                    data-splitting="chars"
-                    data-animate="active"
-                  >
-                    Print
-                  </span>
-                  <span
-                    className="name splitting-text-anim-4 scroll-animate"
-                    data-splitting="words"
-                    data-animate="active"
-                  >
-                    Ferris Wheel
                   </span>
                 </span>
               </a>

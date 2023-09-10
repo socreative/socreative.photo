@@ -1564,6 +1564,7 @@ hr {
 .logo-image {
   position: relative;
   z-index: 3;
+  max-width: 175px;
 }
 
 .logo-image img {
@@ -3930,6 +3931,10 @@ body .hero-main-slider .swiper-pagination {
   display: block;
   width: 100%;
   display: block;
+}
+
+.works-item .image .img-photo {
+  height: auto !important;
 }
 
 .works-item .image .img:before,

@@ -58,7 +58,12 @@ const Header = () => {
         <div className="logo-image">
           <Link legacyBehavior href="/">
             <a>
-              <img src="assets/images/socreative-photography-logo.svg" alt="Socreative Photography" />
+              <img 
+                src="assets/images/socreative-photography-logo.svg" 
+                alt="Socreative Photography" 
+                width="100%"
+                height="auto"
+              />
             </a>
           </Link>
         </div>
