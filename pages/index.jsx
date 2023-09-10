@@ -19,6 +19,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
+              quality={85}
               fill
               priority
             />
@@ -62,6 +63,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
+              quality={85}
               fill
               priority
             />
@@ -105,6 +107,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
+              quality={85}
               fill
               priority
             />
@@ -150,6 +153,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
+              quality={85}
               fill
               priority
             />
