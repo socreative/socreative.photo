@@ -1849,7 +1849,7 @@ hr {
   font-size: 22px;
   line-height: 1;
   font-weight: 700;
-  color: #bab3e2;
+  color: #e3e3e3;
 }
 
 .menu-full ul li ul li a:hover .char,
@@ -1909,7 +1909,7 @@ hr {
   font-size: 12px;
   letter-spacing: 0.025em;
   line-height: 2;
-  color: #bab3e2;
+  color: #e3e3e3;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
@@ -2988,7 +2988,7 @@ body .hero-main-slider .swiper-pagination {
   position: relative;
   margin-bottom: 10px;
   font-size: 12px;
-  color: #bab3e2;
+  color: #e3e3e3;
   text-transform: uppercase;
 }
 
@@ -3325,7 +3325,7 @@ body .hero-main-slider .swiper-pagination {
 
 .profile-box .subname {
   font-size: 12px;
-  color: #bab3e2;
+  color: #e3e3e3;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -5548,7 +5548,7 @@ input.search-submit,
   padding: 0.5rem 0;
   display: block;
   font-size: 0.875rem;
-  color: #bab3e2;
+  color: #e3e3e3;
   font-weight: 400;
 }
 
@@ -5720,7 +5720,7 @@ small {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #bab3e2;
+  color: #e3e3e3;
 }
 
 .comment-box__details a {
