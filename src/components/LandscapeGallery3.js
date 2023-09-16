@@ -78,8 +78,8 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/durdle-door.jpg"
                   alt="Durdle Door, Dorset"
                   quality={77}
-                  width={400}
-                  height={300}
+                  width={395}
+                  height={395}
                   lacebolder="blur"
                   style={{
                     minWidth: '100%',
@@ -99,9 +99,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/london-burning-sky.jpg"
                   alt="Westminster, London"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -120,9 +120,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/lake-disrtrict.jpg"
                   alt="Lake District"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -142,9 +142,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/london-canary-wharf.jpg"
                   alt="London Canary Wharf"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -164,9 +164,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/portland-bill.jpg"
                   alt="Portland Bill"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -186,9 +186,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/canary-wharf-blue-hour.jpg"
                   alt="Canary Wharf"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -208,9 +208,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/lake-district-2.jpg"
                   alt="Lake District"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -230,9 +230,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/westminster-1.jpg"
                   alt="Westminster"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -252,9 +252,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/nash-point.jpg"
                   alt="Nash Point"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -274,9 +274,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/Felixstowe_Pier_2.jpg"
                   alt="Felixstowe"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -295,9 +295,9 @@ const LandscapeGallery3 = () => {
                   src="/assets/images/photos/landscape/nash-point-1.jpg"
                   alt="Nash Point"
                   quality={77}
-                  width={400}
-                  height={300}
-                  placebolder="blur"
+                  width={395}
+                  height={395}
+                  
                   style={{
                     minWidth: '100%',
                     height: 'auto'

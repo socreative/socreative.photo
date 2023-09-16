@@ -35,13 +35,6 @@ img.mfp-img {
 	}
 }
 
-@media (min-width: 1024px) {
-	.gallery-container {
-		--masonry-columns: 4;
-		--masonry-gap: 2rem;
-	}
-}
-
 /* load only if grid-template-rows: masonry is supported by the browser else use the fallback */
 @supports (grid-template-rows: masonry) {
 	.gallery-container {
