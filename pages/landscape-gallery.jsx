@@ -3,8 +3,8 @@ import Head from 'next/head';
 import Footer from '../src/layout/Footer';
 import Layout from '../src/layout/Layout';
 import PageTitle from '../src/layout/PageTitle';
-const LandscapeGallery3 = dynamic(
-  () => import('../src/components/LandscapeGallery3'),
+const LandscapeGallery = dynamic(
+  () => import('../src/components/LandscapeGallery'),
   {
     ssr: false,
   }
@@ -30,7 +30,7 @@ const Gallery3Column = () => {
         {/* Section Started Heading */}
         <PageTitle title="Landscapes" />
         {/* Section Works */}
-        <LandscapeGallery3 />
+        <LandscapeGallery />
       </div>
       <Footer />
     </Layout>
