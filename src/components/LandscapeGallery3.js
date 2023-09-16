@@ -85,7 +85,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -110,7 +109,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -135,7 +133,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />                    
@@ -164,7 +161,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />    
@@ -192,7 +188,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -220,7 +215,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -248,7 +242,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -276,7 +269,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -304,7 +296,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -332,7 +323,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -360,7 +350,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
@@ -388,7 +377,6 @@ const LandscapeGallery3 = () => {
                         objectFit: 'contain',
                       }}
                       quality={85}
-                      responsive
                       fill
                       priority
                     />
