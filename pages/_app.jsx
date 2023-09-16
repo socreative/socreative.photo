@@ -20,25 +20,24 @@ const App = ({ Component, pageProps }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="author" content="socreative" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-P2QKEQSBBR" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-P2QKEQSBBR');
-          `}
-        </Script>
-        
-        
-        {/*[if lt IE 9]>
-	
-	
-	<![endif]*/}
         {/* Favicon */}
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P2QKEQSBBR" />
+        <Script
+          id='google-analytics'
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-P2QKEQSBBR', {
+                page_path: window.location.pathname,
+              });
+            `,
+            }}
+        />
       </Head>
       {loader && <Preloader />}
       <Component {...pageProps} />
