@@ -101,7 +101,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="/portrait-gallery">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -145,7 +145,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="/editorial-gallery">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -191,7 +191,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="/glamour-gallery">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"

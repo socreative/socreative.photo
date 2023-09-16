@@ -151,7 +151,7 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/portrait-photography">
+                            <Link legacyBehavior href="/portrait-gallery">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
@@ -161,17 +161,7 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/glamour">
-                              <a
-                                className="splitting-text-anim-1"
-                                data-splitting="chars"
-                              >
-                                Glamour
-                              </a>
-                            </Link>
-                          </li>
-                          <li className="menu-item">
-                            <Link legacyBehavior href="/editorial">
+                            <Link legacyBehavior href="/editorial-gallery">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
@@ -180,9 +170,19 @@ const Header = () => {
                               </a>
                             </Link>
                           </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/glamour-gallery">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Glamour
+                              </a>
+                            </Link>
+                          </li>
                         </ul>
                       </li>
-                      <li className="menu-item">
+                      {/* <li className="menu-item">
                         <Link legacyBehavior href="/workshops">
                           <a
                             className="splitting-text-anim-2"
@@ -191,7 +191,7 @@ const Header = () => {
                             Workshops
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="menu-item">
                         <Link legacyBehavior href="/contacts">
                           <a

@@ -1,4 +1,4 @@
-import ScImage from './ScImage'
+import ScImage from '../ScImage'
 
 const LandscapeGallery = () => {
   const baseUrl = '/assets/images/photos/'
@@ -63,17 +63,20 @@ const LandscapeGallery = () => {
       <div className="container gallery-container">
         { 
           galleryImages.map(img => (
-             <div className="works-item">
-                <a
-                  href={ `${baseUrl}${img.src}` }
-                  className="has-popup-image"
-                >
-                  <ScImage
-                    src={ `${baseUrl}${img.src}` }
-                    alt={ img.alt }
-                  />
-                </a>
-              </div>
+            <div
+              key={img.src} 
+              className="works-item"
+            >
+              <a
+                href={ `${baseUrl}${img.src}` }
+                className="has-popup-image"
+              >
+                <ScImage
+                  src={ `${baseUrl}${img.src}` }
+                  alt={ img.alt }
+                />
+              </a>
+            </div>
           ))
         }
       </div>
