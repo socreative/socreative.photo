@@ -80,7 +80,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
-placebolder="blur"
+                  lacebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -101,11 +101,12 @@ placebolder="blur"
                   quality={85}
                   width={400}
                   height={300}
-placebolder="blur"
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -121,11 +122,12 @@ placebolder="blur"
                   quality={85}
                   width={400}
                   height={300}
-placebolder="blur"
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />                    
               </a>
             </div>
@@ -142,11 +144,12 @@ placebolder="blur"
                   quality={85}
                   width={400}
                   height={300}
-placebolder="blur"
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -163,11 +166,12 @@ placebolder="blur"
                   quality={85}
                   width={400}
                   height={300}
-placebolder="blur"
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -189,6 +193,7 @@ placebolder="blur"
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -210,6 +215,7 @@ placebolder="blur"
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -231,6 +237,7 @@ placebolder="blur"
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -252,6 +259,7 @@ placebolder="blur"
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
@@ -294,6 +302,7 @@ placebolder="blur"
                     minWidth: '100%',
                     height: 'auto'
                   }}
+                  priority
                 />
               </a>
             </div>
