@@ -80,6 +80,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -100,6 +101,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -119,6 +121,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -139,6 +142,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -159,6 +163,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -179,6 +184,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -199,6 +205,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -219,6 +226,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -239,6 +247,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -259,6 +268,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
@@ -279,6 +289,7 @@ const LandscapeGallery3 = () => {
                   quality={85}
                   width={400}
                   height={300}
+                  placebolder="blur"
                   style={{
                     minWidth: '100%',
                     height: 'auto'
