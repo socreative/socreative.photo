@@ -22,7 +22,7 @@ export const home1SliderProps = {
   spaceBetween: 0,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 8000,
   },
   effect: "creative",
   creativeEffect: {
@@ -34,8 +34,8 @@ export const home1SliderProps = {
       translate: ["100%", 0, 0],
     },
   },
-  speed: 1000,
-  mousewheel: true,
+  speed: 1100,
+  mousewheel: false,
   watchSlidesProgress: true,
   pagination: {
     el: ".hero-main-slider .swiper-pagination",
