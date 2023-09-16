@@ -3888,11 +3888,6 @@ body .hero-main-slider .swiper-pagination {
   margin-top: -100px;
 }
 
-.works-item {
-  position: relative;
-  margin-top: 100px;
-}
-
 .works-item a {
   text-decoration: none;
 }

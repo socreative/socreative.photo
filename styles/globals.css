@@ -14,3 +14,60 @@ img.mfp-img {
   top: -110px;
   right: -24px;
 }
+
+.gallery-container {
+  margin: auto;
+  --masonry-columns: 1;
+	--masonry-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+	.gallery-container {
+		--masonry-columns: 2;
+		--masonry-gap: 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.gallery-container {
+		--masonry-columns: 3;
+		--masonry-gap: 1rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.gallery-container {
+		--masonry-columns: 4;
+		--masonry-gap: 2rem;
+	}
+}
+
+/* load only if grid-template-rows: masonry is supported by the browser else use the fallback */
+@supports (grid-template-rows: masonry) {
+	.gallery-container {
+		display: grid;
+		grid-template-columns: repeat(var(--masonry-columns), 1fr);
+		grid-gap: var(--masonry-gap);
+		grid-template-rows: masonry;
+	}
+
+	.gallery-container > * {
+		margin-bottom: 0;
+	}
+}
+
+/* fallback */
+.gallery-container {
+	column-count: var(--masonry-columns);
+	column-gap: var(--masonry-gap);
+}
+
+.gallery-container > * {
+	margin-bottom: var(--masonry-gap);
+	break-inside: avoid;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
