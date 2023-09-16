@@ -7,7 +7,7 @@ const ScImage = (props) => {
     <Fragment>
       <Image
         src={props.src}
-        alt={props.alt}
+        alt={props.alt + ' - Socreative Photography'}
         quality={77}
         width={395}
         height={395}

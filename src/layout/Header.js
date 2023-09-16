@@ -32,7 +32,7 @@ const Header = () => {
         overlay.classList.add("has-scroll");
         overlay.classList.add("animate-active");
         menu.classList.remove("no-touch");
-      }, 1000);
+      }, 600);
     }
     return false;
   };
@@ -141,7 +141,7 @@ const Header = () => {
                         </a>
                         <ul className="sub-menu" style={subMenuHeight("Portfolio")}>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/landscape-gallery">
+                            <Link legacyBehavior href="/landscapes">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
@@ -151,7 +151,7 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/portrait-gallery">
+                            <Link legacyBehavior href="/portraits">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
@@ -161,17 +161,27 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/editorial-gallery">
+                            <Link legacyBehavior href="/fitness">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
                               >
-                                Editorial
+                                Fitness
                               </a>
                             </Link>
                           </li>
                           <li className="menu-item">
-                            <Link legacyBehavior href="/glamour-gallery">
+                            <Link legacyBehavior href="/fashion">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Fashion
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/glamour">
                               <a
                                 className="splitting-text-anim-1"
                                 data-splitting="chars"
@@ -180,6 +190,7 @@ const Header = () => {
                               </a>
                             </Link>
                           </li>
+                          
                         </ul>
                       </li>
                       {/* <li className="menu-item">
@@ -195,12 +206,12 @@ const Header = () => {
 
                       
                       <li className="menu-item">
-                        <Link legacyBehavior href="/contacts">
+                        <Link legacyBehavior href="/get-in-touch">
                           <a
                             className="splitting-text-anim-2"
                             data-splitting="chars"
                           >
-                            Contact
+                            Get in touch
                           </a>
                         </Link>
                       </li>

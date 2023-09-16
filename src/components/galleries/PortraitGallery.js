@@ -1,4 +1,4 @@
-import ScImage from '../ScImage'
+import ScImage from '../shared/ScImage'
 
 const PortraitGallery = () => {
   const baseUrl = '/assets/images/photos/'

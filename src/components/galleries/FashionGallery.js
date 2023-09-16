@@ -1,6 +1,6 @@
-import ScImage from '../ScImage'
+import ScImage from '../shared/ScImage'
 
-const EditorialGallery = () => {
+const FashionGallery = () => {
   const baseUrl = '/assets/images/photos/'
   const galleryImages = [
     {
@@ -58,4 +58,4 @@ const EditorialGallery = () => {
     </div>
   )
 }
-export default EditorialGallery;
+export default FashionGallery;

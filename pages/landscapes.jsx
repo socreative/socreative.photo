@@ -2,7 +2,63 @@ import Head from 'next/head'
 import Footer from '../src/layout/Footer'
 import Layout from '../src/layout/Layout'
 import PageTitle from '../src/layout/PageTitle'
-import LandscapeGallery from '../src/components/galleries/LandscapeGallery'
+import MasonryImageGallery from '../src/components/shared/MasonryImageGallery'
+
+const galleryImages = [
+  {
+    src: 'landscape/durdle-door.jpg',
+    alt: 'Durdle Door, Dorset'
+  },
+  {
+    src: 'landscape/london-burning-sky.jpg',
+    alt: 'Westminster, London'
+  },
+  {
+    src: 'landscape/lake-district.jpg',
+    alt: 'Lake District'
+  },
+  {
+    src: 'landscape/london-canary-wharf.jpg',
+    alt: 'London Canary Wharf'
+  },
+  {
+    src: 'landscape/portland-bill.jpg',
+    alt: 'Portland Bill'
+  },
+  {
+    src: 'landscape/canary-wharf-blue-hour.jpg',
+    alt: 'Canary Wharf'
+  },
+  {
+    src: 'landscape/lake-district-2.jpg',
+    alt: 'Lake District'
+  },
+  {
+    src: 'landscape/westminster-1.jpg',
+    alt: 'Westminster'
+  },
+  {
+    src: 'landscape/nash-point.jpg',
+    alt: 'Nash Point'
+  },
+
+  {
+    src: 'landscape/Felixstowe_Pier_2.jpg',
+    alt: 'Felixstowe'
+  },
+  {
+    src: 'landscape/nash-point-1.jpg',
+    alt: 'Nash Point'
+  },
+  {
+    src: 'landscape/london-tower-bridge.jpg',
+    alt: 'Tower Bridge'
+  },
+  {
+    src: 'landscape/bournemouth-beach.jpg',
+    alt: 'Bournemouth Beach'
+  } 
+]
 
 const Gallery3Column = () => {
   return (
@@ -25,7 +81,9 @@ const Gallery3Column = () => {
         {/* Section Started Heading */}
         <PageTitle title="Landscapes" />
         {/* Section Works */}
-        <LandscapeGallery />
+        <MasonryImageGallery
+          images={galleryImages}
+        />
       </div>
       <Footer />
     </Layout>

@@ -1,4 +1,4 @@
-import ScImage from '../ScImage'
+import ScImage from '../shared/ScImage'
 
 const LandscapeGallery = () => {
   const baseUrl = '/assets/images/photos/'

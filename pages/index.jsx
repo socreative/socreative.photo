@@ -57,7 +57,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/landscape-gallery">
+                    <Link legacyBehavior href="/landscapes">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -101,7 +101,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/portrait-gallery">
+                    <Link legacyBehavior href="/portraits">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -116,8 +116,8 @@ const Index = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
             <Image
-              src="/assets/images/photos/editorial.jpg"
-              alt="Socreative Photography - Editorial Photography"
+              src="/assets/images/photos/fitness.jpg"
+              alt="Socreative Photography - Fitness Photography"
               sizes="100vw"
               style={{
                 objectFit: 'cover',
@@ -137,15 +137,15 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Editorial
+                        Fitness
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Discover the art of storytelling
+                      Discover the art of fitness photography
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/editorial-gallery">
+                    <Link legacyBehavior href="/fitness">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -191,7 +191,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/glamour-gallery">
+                    <Link legacyBehavior href="/glamour">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"

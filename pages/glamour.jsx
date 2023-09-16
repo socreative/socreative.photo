@@ -2,7 +2,58 @@ import Head from 'next/head'
 import Footer from '../src/layout/Footer'
 import Layout from '../src/layout/Layout'
 import PageTitle from '../src/layout/PageTitle'
-import PortraitGallery from '../src/components/galleries/PortraitGallery'
+import MasonryImageGallery from '../src/components/shared/MasonryImageGallery'
+
+const galleryImages = [
+  {
+    src: 'portrait/lena.jpg',
+    alt: 'Lena'
+  },
+  {
+    src: 'portrait/ina-1.jpg',
+    alt: 'Ina'
+  },
+  {
+    src: 'portrait/Carmelle_2.jpg',
+    alt: 'Carmelle'
+  },
+  {
+    src: 'portrait/dovile-1.jpg',
+    alt: 'Dovile'
+  },
+  {
+    src: 'portrait/red_dress_1.jpg',
+    alt: 'Red dress'
+  },
+  {
+    src: 'portrait/dovile-2.jpg',
+    alt: 'Dovile'
+  },
+  {
+    src: 'portrait/milly_pier_2.jpg',
+    alt: 'Milly'
+  },
+  {
+    src: 'portrait/urban-fitness-1.jpg',
+    alt: 'Urban fitness'
+  },
+  {
+    src: 'portrait/urban-fitness-2.jpg',
+    alt: 'Urban fitness'
+  },
+  {
+    src: 'portrait/laura-2-sc.jpg',
+    alt: 'Laura'
+  },
+  {
+    src: 'portrait/dovile-3.jpg',
+    alt: 'Dovile'
+  },
+  {
+    src: 'portrait/mia.jpg',
+    alt: 'Mia'
+  },
+]
 
 const Gallery3Column = () => {
   return (
@@ -13,7 +64,7 @@ const Gallery3Column = () => {
         </title>
         <meta
           name="description"
-          content="Portrait photographer in Dorset. Dorset portrait photography workshops"
+          content="Glamour photographer in Dorset. Dorset glamour photography workshops"
           key="desc"
         />
         <meta name="keywords" content="Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
@@ -23,9 +74,11 @@ const Gallery3Column = () => {
       </Head>
       <div className="wrapper">
         {/* Section Started Heading */}
-        <PageTitle title="Portraits" />
+        <PageTitle title="Glamour" />
         {/* Section Works */}
-        <PortraitGallery />
+        <MasonryImageGallery
+          images={galleryImages}
+        />
       </div>
       <Footer />
     </Layout>
