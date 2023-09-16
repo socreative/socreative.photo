@@ -4,32 +4,52 @@ const PortraitGallery = () => {
   const baseUrl = '/assets/images/photos/'
   const galleryImages = [
     {
-      src: 'landscape/durdle-door.jpg',
-      alt: 'Durdle Door, Dorset'
+      src: 'portrait/lena.jpg',
+      alt: 'Lena'
     },
     {
-      src: 'landscape/london-burning-sky.jpg',
-      alt: 'Westminster, London'
+      src: 'portrait/ina-1.jpg',
+      alt: 'Ina'
     },
     {
-      src: 'landscape/lake-district.jpg',
-      alt: 'Lake District'
+      src: 'portrait/Carmelle_2.jpg',
+      alt: 'Carmelle'
     },
     {
-      src: 'landscape/london-canary-wharf.jpg',
-      alt: 'London Canary Wharf'
+      src: 'portrait/dovile-1.jpg',
+      alt: 'Dovile'
     },
     {
-      src: 'landscape/portland-bill.jpg',
-      alt: 'Portland Bill'
+      src: 'portrait/red_dress_1.jpg',
+      alt: 'Red dress'
     },
     {
-      src: 'landscape/canary-wharf-blue-hour.jpg',
-      alt: 'Canary Wharf'
+      src: 'portrait/dovile-2.jpg',
+      alt: 'Dovile'
     },
     {
-      src: 'landscape/lake-district-2.jpg',
-      alt: 'Lake District'
+      src: 'portrait/milly_pier_2.jpg',
+      alt: 'Milly'
+    },
+    {
+      src: 'portrait/urban-fitness-1.jpg',
+      alt: 'Urban fitness'
+    },
+    {
+      src: 'portrait/urban-fitness-2.jpg',
+      alt: 'Urban fitness'
+    },
+    {
+      src: 'portrait/laura-2-sc.jpg',
+      alt: 'Laura'
+    },
+    {
+      src: 'portrait/dovile-3.jpg',
+      alt: 'Dovile'
+    },
+    {
+      src: 'portrait/mia.jpg',
+      alt: 'Mia'
     },
   ]
 
