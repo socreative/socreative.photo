@@ -29,7 +29,10 @@ const galleryImages = [
     src: 'portrait/red_dress_1.jpg',
     alt: 'Red dress'
   },
-  
+  {
+    src: 'portrait/laura-1.jpg',
+    alt: 'Laura - portrait'
+  },
   {
     src: 'portrait/dovile-2.jpg',
     alt: 'Dovile - portrait'
@@ -58,6 +61,15 @@ const galleryImages = [
     src: 'portrait/mia.jpg',
     alt: 'Mia - portrait'
   },
+  {
+    src: 'portrait/leah-1.jpg',
+    alt: 'Leah - portrait'
+  },
+  {
+    src: 'portrait/bailee_vaux.jpg',
+    alt: 'Bailee - portrait'
+  },
+
 ]
 
 const Gallery3Column = () => {

@@ -7,57 +7,68 @@ import MasonryImageGallery from '../src/components/shared/MasonryImageGallery'
 const galleryImages = [
   {
     src: 'landscape/durdle-door.jpg',
-    alt: 'Durdle Door, Dorset'
+    alt: 'Durdle Door, Dorset - landscape'
   },
   {
     src: 'landscape/london-burning-sky.jpg',
-    alt: 'Westminster, London'
+    alt: 'Westminster, London - landscape'
   },
   {
-    src: 'landscape/lake-district.jpg',
-    alt: 'Lake District'
-  },
-  {
-    src: 'landscape/london-canary-wharf.jpg',
-    alt: 'London Canary Wharf'
-  },
-  {
-    src: 'landscape/portland-bill.jpg',
-    alt: 'Portland Bill'
-  },
-  {
-    src: 'landscape/canary-wharf-blue-hour.jpg',
-    alt: 'Canary Wharf'
-  },
-  {
-    src: 'landscape/lake-district-2.jpg',
-    alt: 'Lake District'
-  },
-  {
-    src: 'landscape/westminster-1.jpg',
-    alt: 'Westminster'
+    src: 'landscape/ukraine.jpg',
+    alt: 'Ukraine - landscape'
   },
   {
     src: 'landscape/nash-point.jpg',
-    alt: 'Nash Point'
+    alt: 'Nash Point - landscape'
   },
-
+  {
+    src: 'landscape/lake-district.jpg',
+    alt: 'Lake District - landscape'
+  },
+  {
+    src: 'landscape/london-canary-wharf.jpg',
+    alt: 'London Canary Wharf - landscape'
+  },
+  {
+    src: 'landscape/portland-bill.jpg',
+    alt: 'Portland Bill - landscape'
+  },
+  {
+    src: 'landscape/canary-wharf-blue-hour.jpg',
+    alt: 'Canary Wharf - landscape'
+  },
+  {
+    src: 'landscape/lake-district-2.jpg',
+    alt: 'Lake District - landscape'
+  },
+  {
+    src: 'landscape/westminster-1.jpg',
+    alt: 'Westminster - landscape'
+  },
   {
     src: 'landscape/Felixstowe_Pier_2.jpg',
-    alt: 'Felixstowe'
+    alt: 'Felixstowe - landscape'
+  },
+  {
+    src: 'landscape/isle-of-skye-2.jpg',
+    alt: 'Isle of Skye - landscape'
   },
   {
     src: 'landscape/nash-point-1.jpg',
-    alt: 'Nash Point'
+    alt: 'Nash Point - landscape'
   },
   {
     src: 'landscape/london-tower-bridge.jpg',
-    alt: 'Tower Bridge'
+    alt: 'Tower Bridge - landscape'
   },
   {
     src: 'landscape/bournemouth-beach.jpg',
-    alt: 'Bournemouth Beach'
-  } 
+    alt: 'Bournemouth Beach - landscape'
+  },
+  {
+    src: 'landscape/isle-of-skye.jpg',
+    alt: 'Isle of Skye - landscape'
+  },
 ]
 
 const Gallery3Column = () => {
