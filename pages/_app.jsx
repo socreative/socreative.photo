@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Script from 'next/script';
 import { Fragment, useEffect, useState } from 'react';
 import Preloader from '../src/layout/Preloader';
 import '../styles/globals.css';
