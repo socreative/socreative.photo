@@ -1239,6 +1239,9 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  transition: transform 1400ms ease;
 }
 
 .swiper-button-prev.swiper-button-disabled,
