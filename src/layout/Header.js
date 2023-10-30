@@ -128,6 +128,74 @@ const Header = () => {
                       </li> */}
                       <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
+                          "Services"
+                        )}`}
+                      >
+                        <a
+                          className="splitting-text-anim-2 words chars splitting"
+                          data-splitting="chars"
+                          href="#"
+                          onClick={(e) => subMenuClick(e, "Services")}
+                        >
+                          Services
+                        </a>
+                        <ul className="sub-menu" style={subMenuHeight("Services")}>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/services/commercial-photography">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                 Commercial photography
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/services/headshots">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Headshots
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/services/portraits">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Portraits
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/services/drone-videography">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Drone Videography
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/workshops">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Workshops
+                              </a>
+                            </Link>
+                          </li>
+                          
+                          
+                        </ul>
+                      </li>
+                      <li
+                        className={`menu-item menu-item-has-children has-children ${subMenuOpened(
                           "Portfolio"
                         )}`}
                       >
@@ -193,7 +261,7 @@ const Header = () => {
                           
                         </ul>
                       </li>
-                      {/* <li className="menu-item">
+                      <li className="menu-item">
                         <Link legacyBehavior href="/workshops">
                           <a
                             className="splitting-text-anim-2"
@@ -202,7 +270,7 @@ const Header = () => {
                             Workshops
                           </a>
                         </Link>
-                      </li> */}
+                      </li>
 
                       
                       <li className="menu-item">

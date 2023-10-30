@@ -3,7 +3,6 @@ import Footer from '../src/layout/Footer'
 import Layout from '../src/layout/Layout'
 import PageTitle from '../src/layout/PageTitle'
 import MasonryImageGallery from '../src/components/shared/MasonryImageGallery'
-import BookingWidget2 from '../src/components/BookingWidget2'
 
 const galleryImages = [
   {
@@ -80,13 +79,9 @@ const Gallery3Column = () => {
         <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/landscape/durdle-door.jpg" />
       </Head>
       <div className="wrapper">
-      <BookingWidget2/>
       
         {/* Section Started Heading */}
         <PageTitle title="Fashion" />
-        {/* Section Works */}
-
-        <button onClick={() => { handleBooking('test') }}>BOOK</button>
         <MasonryImageGallery
           images={galleryImages}
         />
