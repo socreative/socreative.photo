@@ -64,14 +64,14 @@ const Gallery3Column = () => {
     <Layout>
       <Head>
         <title>
-          Portrait photographer, Dorset portrait photography workshops - Socreative Photography
+          Fitness photographer, Dorset fitness photography - Socreative Photography
         </title>
         <meta
           name="description"
           content="Portrait photographer in Dorset. Dorset portrait photography workshops"
           key="desc"
         />
-        <meta name="keywords" content="Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
+        <meta name="keywords" content="Dorset fitness photographer, Dorset fitness photographer, Dorset photographer, Poole fitness photographer" />
         <meta property="og:title" content="Dorset photographer, Dorset photography workshops" />
         <meta property="og:description" content="Dorset landscape photographer, Dorset landscape photography workshops" />
         <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/landscape/durdle-door.jpg" />
