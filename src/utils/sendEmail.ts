@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
   }
 })
 
-export const sendEmail = (data: any) => {
+export const sendEmail = async (data: any) => {
   const message = {
     from: 'contact@socreativeohoto.com',
     to: 'egor.sc@outlook.com',
@@ -18,12 +18,16 @@ export const sendEmail = (data: any) => {
     text: `FROM: \n ${ data.name } - ${ data.email } \n\n MESSAGE: \n ${ data.message }`
   }
 
-  transporter.sendMail(message, (err: any, info: any) => {
-    if (err) {
-      console.log('Something went wrong. Email wasn\'t sent. Trying again')
-      console.log(err)
-    } else {
-      console.log(info)
-    }
+  await new Promise((resolve, reject) => { 
+    transporter.sendMail(message, (err: any, info: any) => {
+      if (err) {
+        console.log('Something went wrong. Email wasn\'t sent. Trying again')
+        console.log(err)
+        reject(err);
+      } else {
+        console.log(info)
+        resolve(info)
+      }
+    })
   })
 }

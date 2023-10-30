@@ -1,12 +1,14 @@
 {
-  "name": "aster-react",
+  "name": "socreative.photo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "node ./scripts/generate-sitemap.mjs",
+    "postbuild": "npm run sitemap"
   },
   "dependencies": {
     "clsx": "^2.0.0",
@@ -23,6 +25,8 @@
   "devDependencies": {
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
+    "globby": "^13.2.2",
+    "prettier": "^3.0.3",
     "typescript": "5.2.2"
   }
 }
