@@ -126,7 +126,7 @@ const Header = () => {
                           </li>
                         </ul>
                       </li> */}
-                      <li
+                      {/* <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
                           "Services"
                         )}`}
@@ -193,7 +193,7 @@ const Header = () => {
                           
                           
                         </ul>
-                      </li>
+                      </li> */}
                       <li
                         className={`menu-item menu-item-has-children has-children ${subMenuOpened(
                           "Portfolio"
@@ -261,7 +261,7 @@ const Header = () => {
                           
                         </ul>
                       </li>
-                      <li className="menu-item">
+                      {/* <li className="menu-item">
                         <Link legacyBehavior href="/workshops">
                           <a
                             className="splitting-text-anim-2"
@@ -270,7 +270,7 @@ const Header = () => {
                             Workshops
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
 
                       
                       <li className="menu-item">
