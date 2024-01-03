@@ -161,7 +161,7 @@ const Index = () => {
           <SwiperSlide className="swiper-slide" data-color="white">
             <Image
               src="/assets/images/photos/glam.jpg"
-              alt="Socreative Photography - Glamour Photography"
+              alt="Socreative Photography - Fasion Photography"
               sizes="100vw"
               style={{
                 objectFit: 'cover',
@@ -182,16 +182,15 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Glamour
+                        Fashion
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Elevate your allure with the glamour photography. <br />
-                      I specialize in capturing your elegance and confidence, producing timeless images that celebrate your unique beauty
+                      Fashion photography and editorials.
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/glamour">
+                    <Link legacyBehavior href="/fashion">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
