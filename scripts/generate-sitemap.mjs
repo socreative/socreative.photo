@@ -37,7 +37,7 @@ console.log(dateString[0]);
                 const route = path === '/index' ? '' : path;
                 return `
                         <url>
-                            <loc>https://socreativephoto.com${route}/</loc>
+                            <loc>https://www.socreativephoto.com${route}/</loc>
                             <lastmod>${dateString}</lastmod>
                             <changefreq>weekly</changefreq>
                         </url>
