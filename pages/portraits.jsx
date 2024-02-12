@@ -85,17 +85,17 @@ const Gallery3Column = () => {
     <Layout>
       <Head>
         <title>
-          Portrait photographer, Dorset portrait photography workshops - Socreative Photography
+          Portrait and family photographer in Poole, Dorset - Socreative Photography
         </title>
         <meta
           name="description"
-          content="Portrait photographer in Dorset. Dorset portrait photography workshops"
+          content="Portrait and family photographer in Poole, Dorset. To book a session call: 07466318246"
           key="desc"
         />
-        <meta name="keywords" content="Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
-        <meta property="og:title" content="Dorset photographer, Dorset photography workshops" />
-        <meta property="og:description" content="Dorset landscape photographer, Dorset landscape photography workshops" />
-        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/landscape/durdle-door.jpg" />
+        <meta name="keywords" content="Poole portrait photographer, Poole family photographer, Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
+        <meta property="og:title" content="Portrait and family photographer in Poole, Dorset - Socreative Photography" />
+        <meta property="og:description" content="Portrait and family photographer in Poole, Dorset. To book a session call: 07466318246" />
+        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/portrait/lena.jpg" />
       </Head>
       <div className="wrapper">
         {/* Section Started Heading */}
