@@ -26,6 +26,10 @@ const galleryImages = [
     alt: 'Kew - fashion'
   },
   {
+    src: 'fashion/chris-tuxedo-1.jpg',
+    alt: 'Tuxedo - fashion'
+  },
+  {
     src: 'fashion/kew-2.jpg',
     alt: 'fashion editorial'
   },
@@ -40,6 +44,14 @@ const galleryImages = [
   {
     src: 'fashion/laura-22.jpg',
     alt: 'Urban fashion'
+  },
+  {
+    src: 'fashion/urban-fitness-2.jpg',
+    alt: 'Urban fitness fashion'
+  },
+  {
+    src: 'fashion/chris-tuxedo-3.jpg',
+    alt: 'Tuxedo - fashion'
   },
   {
     src: 'fashion/rich.jpg',

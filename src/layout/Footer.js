@@ -34,13 +34,17 @@ const Footer = () => {
                   <i aria-hidden="true" className="fab fa-twitter" />
                 </a>
               </div>
+              <span class="contact-telephone">Tel: 07466318246</span>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+              
             </div>
             {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                © 2023 Socreative Photography
+                © 2024 Socreative Photography
               </div>
             </div> */}
           </div>

@@ -2130,7 +2130,12 @@ hr {
 }
 
 .footer .social-links.footer-social-links {
+  margin-bottom: 15px;
+}
+
+.footer .contact-telephone {
   margin-bottom: 30px;
+  display: block;
 }
 
 /**

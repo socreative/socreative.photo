@@ -42,11 +42,11 @@ const galleryImages = [
     alt: 'Milly - portrait'
   },
   {
-    src: 'portrait/urban-fitness-1.jpg',
-    alt: 'Urban fitness - portrait'
+    src: 'portrait/urban-portrait.jpg',
+    alt: 'Urban - portrait'
   },
   {
-    src: 'portrait/urban-fitness-2.jpg',
+    src: 'portrait/urban-fitness-1.jpg',
     alt: 'Urban fitness - portrait'
   },
   {
@@ -68,6 +68,14 @@ const galleryImages = [
   {
     src: 'portrait/bailee_vaux.jpg',
     alt: 'Bailee - portrait'
+  },
+  {
+    src: 'portrait/hot-motif.jpg',
+    alt: 'Hot Motif'
+  },
+  {
+    src: 'portrait/eva-portrait.jpg',
+    alt: 'Hot Motif'
   },
 
 ]

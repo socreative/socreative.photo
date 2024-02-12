@@ -69,6 +69,14 @@ const galleryImages = [
     src: 'landscape/isle-of-skye.jpg',
     alt: 'Isle of Skye - landscape'
   },
+  {
+    src: 'landscape/st-pauls.jpg',
+    alt: 'St Pauls Cathedral'
+  },
+  {
+    src: 'landscape/Felixstowe_pier.jpg',
+    alt: 'Felixstowe_pier'
+  },
 ]
 
 const Gallery3Column = () => {
