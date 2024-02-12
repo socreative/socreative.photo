@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head';
 import Link from "next/link";
+import Footer from '../src/layout/Footer'
 import { Swiper, SwiperSlide } from "swiper/react";
 import Layout from "../src/layout/Layout";
 import { home1SliderProps } from "../src/sliderProps";
@@ -25,7 +26,9 @@ const Index = () => {
       </Head>
       <div className="wrapper">
         {/* Section Hero Main Slider */}
-        <Swiper {...home1SliderProps} className="section hero-main-slider">
+        <div className="container">
+          <div className="slider-container">
+          <Swiper {...home1SliderProps} className="section hero-main-slider">
           <SwiperSlide className="swiper-slide" data-color="white">
             <Image
               src="/assets/images/photos/london-burning-sky.jpg"
@@ -214,7 +217,17 @@ const Index = () => {
             <div className="swiper-button-next" />
           </div>
         </Swiper>
+          </div>
+          <div className="page-content my-5">
+            <h1>Professional commercial, portrait and landscape photographer in Poole, Dorset</h1>
+            <p>Hi, my name is Egor and I am a professional photographer and teacher with nearly fifteen years experience working within the photography industry.</p>
+            <p>From family portraits and fashion editorials to commercial and landscape photography, I am passionate about capturing emotions, natural beauty and things made by humans.</p>
+          </div>
+
+        </div>
+        
       </div>
+      <Footer />
     </Layout>
   );
 };

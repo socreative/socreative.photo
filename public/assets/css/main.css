@@ -198,6 +198,8 @@ h6 {
 
 h1 {
   font-size: 42px;
+  font-family: "Playfair Display";
+  font-weight: 500;
 }
 
 h2 {
@@ -961,12 +963,8 @@ hr {
 }
 
 .container-page {
-  position: relative;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  min-height: 100vh;
-  justify-content: end;
+  margin-top: 140px;
 }
 
 .wrapper {
@@ -2675,7 +2673,7 @@ hr {
   position: relative;
   display: block;
   font-family: "Playfair Display";
-  font-size: 108px;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 500;
   margin: 0 0 70px 0;
@@ -2698,7 +2696,6 @@ hr {
 
 .hero-main-slider {
   position: relative;
-  height: 100vh;
 }
 
 .admin-bar .hero-main-slider {
@@ -3172,7 +3169,6 @@ body .hero-main-slider .swiper-pagination {
 **/
 
 .wrapper .section.started-heading {
-  margin-top: 250px;
   margin-bottom: 100px;
 }
 
@@ -7442,4 +7438,13 @@ body
 
 .mfp-close:before {
   display: none;
+}
+
+.hero-main-slider {
+  height: 100%;
+}
+
+
+.slider-container {
+  height: 560px;
 }
