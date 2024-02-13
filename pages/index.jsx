@@ -232,7 +232,7 @@ const Index = () => {
               <h4>Portraits</h4>
               <div className="service-image">
                 <ScImage
-                  src='/assets/images/thumbs/portraits.jpg'
+                  src='/assets/images/photos/thumbs/portraits.jpg'
                   alt="Portrait and headshot photographer"
                 />
               </div>
@@ -246,7 +246,7 @@ const Index = () => {
               <h4>Fitness</h4>
               <div className="service-image">
                 <ScImage
-                  src='/assets/images/thumbs/fitness.jpg'
+                  src='/assets/images/photos/thumbs/fitness.jpg'
                   alt="Dorset fitness photography"
                 />
               </div>
@@ -259,7 +259,7 @@ const Index = () => {
               <h4>Commercial</h4>
               <div className="service-image">
                 <ScImage
-                  src='/assets/images/thumbs/commercial.jpg'
+                  src='/assets/images/photos/thumbs/commercial.jpg'
                   alt="Poole commercial photographer"
                 />
               </div>
