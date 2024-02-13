@@ -6,53 +6,116 @@ import MasonryImageGallery from '../src/components/shared/MasonryImageGallery'
 
 const galleryImages = [
   {
-    src: 'portrait/lena.jpg',
-    alt: 'Lena'
+    src: 'glamour/chris-tuxedo-3.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/ina-1.jpg',
-    alt: 'Ina'
+    src: 'glamour/debbie1.1.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/Carmelle_2.jpg',
-    alt: 'Carmelle'
+    src: 'glamour/tunnel_color.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/dovile-1.jpg',
-    alt: 'Dovile'
+    src: 'glamour/bunny-55.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/red_dress_1.jpg',
-    alt: 'Red dress'
+    src: 'glamour/debbie-2.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/dovile-2.jpg',
-    alt: 'Dovile'
+    src: 'glamour/_5D_9194.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/milly_pier_2.jpg',
-    alt: 'Milly'
+    src: 'glamour/eva-1.3_small.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/urban-fitness-1.jpg',
-    alt: 'Urban fitness'
+    src: 'glamour/red1.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/urban-fitness-2.jpg',
-    alt: 'Urban fitness'
+    src: 'glamour/_5D_4776.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/laura-2-sc.jpg',
-    alt: 'Laura'
+    src: 'glamour/chris-edit-1.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/dovile-3.jpg',
-    alt: 'Dovile'
+    src: 'glamour/_5D_5950.jpg',
+    alt: 'x'
   },
   {
-    src: 'portrait/mia.jpg',
-    alt: 'Mia'
+    src: 'glamour/under-1.jpg',
+    alt: 'x'
   },
+  {
+    src: 'glamour/_5D_5932.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_9194.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_6462.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_9842-Edit.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/belita.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_5498-55.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_MG_0360-2.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_6469.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_4546-Edit.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/wendy-grey-1.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/red2.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/isabella-bikini.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/chris-bunny-1.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_1565-1.jpg',
+    alt: 'x'
+  },
+  {
+    src: 'glamour/_5D_9877.jpg',
+    alt: 'x'
+  },
+
+
+
 ]
 
 const Gallery3Column = () => {

@@ -55,9 +55,9 @@ const Index = () => {
                         Landscapes
                       </span>
                     </div>
-                    <div className="subtitle scrolla-element-anim-1">
+                    {/* <div className="subtitle scrolla-element-anim-1">
                       Landscape and long exposure photography gallery
-                    </div>
+                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/landscapes">
@@ -99,9 +99,9 @@ const Index = () => {
                         Portraits<br />
                       </span>
                     </div>
-                    <div className="subtitle scrolla-element-anim-1">
+                    {/* <div className="subtitle scrolla-element-anim-1">
                       From fashion to family portraits in both natural light and photo studio 
-                    </div>
+                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/portraits">
@@ -143,9 +143,9 @@ const Index = () => {
                         Fitness
                       </span>
                     </div>
-                    <div className="subtitle scrolla-element-anim-1">
+                    {/* <div className="subtitle scrolla-element-anim-1">
                       Discover the art of fitness photography
-                    </div>
+                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/fitness">
@@ -188,9 +188,9 @@ const Index = () => {
                         Fashion
                       </span>
                     </div>
-                    <div className="subtitle scrolla-element-anim-1">
+                    {/* <div className="subtitle scrolla-element-anim-1">
                       Fashion photography and editorials.
-                    </div>
+                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/fashion">
@@ -222,7 +222,24 @@ const Index = () => {
             <h1>Professional commercial, portrait and landscape photographer in Poole, Dorset</h1>
             <p>Hi, my name is Egor and I am a professional photographer and teacher with nearly fifteen years experience working within the photography industry.</p>
             <p>From family portraits and fashion editorials to commercial and landscape photography, I am passionate about capturing emotions, natural beauty and things made by humans.</p>
+            <p>&nbsp;</p>
           </div>
+
+          {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h3>Workshops</h3>
+              <div className="service-image">
+
+              </div>
+          </div>
+
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h3>Workshops</h3>
+              <div className="service-image">
+                
+              </div>
+          </div> */}
+
+          
 
         </div>
         
