@@ -44,7 +44,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                © 2024 Socreative Photography
+                <a className="sm-link" href="https://www.socreative.digital">Crafted by Socreative.Digital</a>
               </div>
             </div>
           </div>

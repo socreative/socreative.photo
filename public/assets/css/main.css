@@ -7448,3 +7448,7 @@ body
 .slider-container {
   height: 560px;
 }
+
+.sm-link {
+  font-size: 12px;
+}
