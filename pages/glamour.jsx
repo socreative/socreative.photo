@@ -127,13 +127,13 @@ const Gallery3Column = () => {
         </title>
         <meta
           name="description"
-          content="Glamour photographer in Dorset. Dorset glamour photography workshops"
+          content="Glamour photographer in Dorset. Bookings: 07466318246"
           key="desc"
         />
         <meta name="keywords" content="Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
-        <meta property="og:title" content="Dorset photographer, Dorset photography workshops" />
-        <meta property="og:description" content="Dorset landscape photographer, Dorset landscape photography workshops" />
-        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/landscape/durdle-door.jpg" />
+        <meta property="og:title" content="Dorset glamour and fashion photographer. Bookings: 07466318246" />
+        <meta property="og:description" content="Dorset glamour and fashion photographer" />
+        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/glamour/chris-tuxedo-3.jpg" />
       </Head>
       <div className="wrapper">
         {/* Section Started Heading */}
