@@ -5,6 +5,8 @@ import Footer from '../src/layout/Footer'
 import { Swiper, SwiperSlide } from "swiper/react";
 import Layout from "../src/layout/Layout";
 import { home1SliderProps } from "../src/sliderProps";
+import ScImage from '../src/components/shared/ScImage'
+
 // import Splitting from "splitting";
 
 const Index = () => {
@@ -225,19 +227,69 @@ const Index = () => {
             <p>&nbsp;</p>
           </div>
 
-          {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <h3>Workshops</h3>
+          <div className="row mb-5">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h4>Portraits</h4>
               <div className="service-image">
-
+                <ScImage
+                  src='/assets/images/photos/portrait-summer.jpg'
+                  alt="Portrait and headshot photographer"
+                />
               </div>
+              <p>From portraits and corporate head shots fashion to family portraits in natural light and photo studio.</p>
+              <Link legacyBehavior href="/portraits">
+                Find out more
+              </Link>
+            </div>
+
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h4>Fitness</h4>
+              <div className="service-image">
+                <ScImage
+                  src='/assets/images/photos/fitness.jpg'
+                  alt="Dorset fitness photography"
+                />
+              </div>
+              <p>Discover the art of fitness photography. Available for both outdoor. and indoor shoots.</p>
+              <Link legacyBehavior href="/fitness">
+                Find out more
+              </Link>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+              <h4>Commercial</h4>
+              <div className="service-image">
+                <ScImage
+                  src='/assets/images/photos/commercial/yacht.jpg'
+                  alt="Poole commercial photographer"
+                />
+              </div>
+              <p>Various commercial photography - yachts and boats, products, aerial photography and videography.</p>
+              <Link legacyBehavior href="/commercial">
+                Find out more
+              </Link>
+            </div>
           </div>
+
+          {/* <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <h3>Landscape photography workshops in Dorset</h3>
+                <div className="service-image">
+                  <ScImage
+                    src='/assets/images/photos/landscape/portland-bill.jpg'
+                    alt="Dorset landscape photography workshops"
+                  />
+                </div>
+            </div>
 
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <h3>Workshops</h3>
               <div className="service-image">
                 
               </div>
+          </div>
           </div> */}
+
+          
 
           
 
