@@ -3,15 +3,8 @@ import "../styles/globals.css";
 
 import Head from 'next/head';
 import { Fragment, useEffect, useState } from 'react';
-import Preloader from '../src/layout/Preloader';
 
 const App = ({ Component, pageProps }) => {
-  const [loader, setLoader] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 3000);
-  }, []);
 
   return (
     <Fragment>
@@ -26,7 +19,6 @@ const App = ({ Component, pageProps }) => {
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
       </Head>
-      {loader && <Preloader />}
       <Component {...pageProps} />
     </Fragment>
   );

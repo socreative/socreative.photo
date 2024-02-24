@@ -1582,6 +1582,8 @@ hr {
 
 .header__builder {
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-btn span {
@@ -7451,4 +7453,42 @@ body
 
 .sm-link {
   font-size: 12px;
+}
+
+
+
+.sc-nav ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+
+}
+
+.sc-nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.sc-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .sc-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sc-mobile-menu {
+    display: none !important;
+  }
 }

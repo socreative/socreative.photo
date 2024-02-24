@@ -79,22 +79,26 @@ const galleryImages = [
   },
 ]
 
+const pageMeta = {
+  title: 'Landscape photographer in Dorset. Photography workshops in Dorset',
+  description: 'Landscape photographer in Poole, Dorset. Photography workshops Dorset',
+  keywords: 'dorset landscape photography, photography workshops dorset, landscape photography workshops, Dorset landscape photographer, landscape photography dorset',
+  image: 'https://socreativephoto.com/assets/images/photos/landscape/portland-bill.jpg',
+}
+
 const Gallery3Column = () => {
   return (
     <Layout>
       <Head>
-        <title>
-        Glamour photographer in Poole, Dorset - Socreative Photography
-        </title>
-        <meta
-          name="description"
-          content="Glamour photographer in Poole, Dorset. Bookings: "
-          key="desc"
-        />
-        <meta name="keywords" content="Dorset glamour photographer, Dorset photography" />
-        <meta property="og:title" content="Glamour and fashion photographer, Dorset glamour photography, Poole glamour photography" />
-        <meta property="og:description" content="Dorset glamour photographer, Dorset glamour photography workshops" />
-        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/landscape/durdle-door.jpg" />
+        <title>{ pageMeta.title }</title>
+        <meta name="description" content={ pageMeta.description } key="desc" />
+        <meta name="keywords" content={ pageMeta.keywords } />
+        <meta property="og:title" content={ pageMeta.title } />
+        <meta property="og:description" content={ pageMeta.description } />
+        <meta property="og:image" content={ pageMeta.image } />
+        <meta property="twitter:title" content={ pageMeta.title } />
+        <meta property="twitter:description" content={ pageMeta.description } />
+        <meta property="twitter:image" content={ pageMeta.image } />
       </Head>
       <div className="wrapper">
         {/* Section Started Heading */}

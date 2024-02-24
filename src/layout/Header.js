@@ -67,8 +67,42 @@ const Header = () => {
             </a>
           </Link>
         </div>
+        <nav className="sc-nav">
+          <ul>
+            <li>
+              <Link href="/landscapes">
+                Landscapes
+              </Link>
+            </li>
+            <li>
+              <Link href="/portraits">
+                Portraits
+              </Link>
+            </li>
+            <li>
+              <Link href="/fashion">
+                Fashion
+              </Link>
+            </li>
+            <li>
+              <Link href="/fitness">
+                Fitness
+              </Link>
+            </li>
+            <li>
+              <Link href="/workshops">
+                Workshops
+              </Link>
+            </li>
+            <li>
+              <Link href="/get-in-touch">
+                Get in touch
+              </Link>
+            </li>
+          </ul>
+        </nav>
         {/* menu btn */}
-        <a href="#" className="menu-btn full" onClick={(e) => toggleFun(e)}>
+        <a href="#" className="sc-mobile-menu menu-btn full" onClick={(e) => toggleFun(e)}>
           <span />
         </a>
         {/* Menu Full Overlay */}
