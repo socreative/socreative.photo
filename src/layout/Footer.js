@@ -14,24 +14,31 @@ const Footer = () => {
                   href="https://instagram.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
+                  aria-label="Socreative Photography Instagram link"
                 >
                   <i aria-hidden="true" className="fab fa-instagram" />
+                  <span>instagram</span>
                 </a>
                 <a
                   target="_blank"
                   href="https://facebook.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
+                  aria-label="Socreative Photography Facebook page link"
                 >
                   <i aria-hidden="true" className="fab fa-facebook-f" />
+                  <span>facebook</span>
                 </a>
                 <a
+
                   target="_blank"
                   href="https://twitter.com/socreativephoto"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
+                  aria-label="Socreative Photography Twitter link"
                 >
                   <i aria-hidden="true" className="fab fa-twitter" />
+                  <span>twitter</span>
                 </a>
               </div>
               <span className="contact-telephone">Tel: 07466318246</span>
