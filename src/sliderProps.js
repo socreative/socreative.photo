@@ -24,16 +24,6 @@ export const home1SliderProps = {
   autoplay: {
     delay: 8000,
   },
-  effect: "creative",
-  creativeEffect: {
-    prev: {
-      shadow: true,
-      translate: ["-20%", 0, -1],
-    },
-    next: {
-      translate: ["100%", 0, 0],
-    },
-  },
   speed: 1100,
   mousewheel: false,
   watchSlidesProgress: true,

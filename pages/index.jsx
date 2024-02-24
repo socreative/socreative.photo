@@ -46,26 +46,19 @@ const Index = () => {
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
-                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
-                        className="title-inner splitting-text-anim-2"
-                        data-splitting=""
+                        className="title-inner"
                       >
                         Landscapes
                       </span>
                     </div>
-                    {/* <div className="subtitle scrolla-element-anim-1">
-                      Landscape and long exposure photography gallery
-                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/landscapes">
                       <a
-                        data-splitting=""
-                        className="btn more-btn scrolla-element-anim-1"
+                        className="btn more-btn"
                       >
                         see more
                       </a>
@@ -90,26 +83,19 @@ const Index = () => {
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
-                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
-                        className="title-inner splitting-text-anim-2"
-                        data-splitting=""
+                        className="title-inner"
                       >
                         Portraits<br />
                       </span>
                     </div>
-                    {/* <div className="subtitle scrolla-element-anim-1">
-                      From fashion to family portraits in both natural light and photo studio 
-                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/portraits">
                       <a
-                        data-splitting=""
-                        className="btn more-btn scrolla-element-anim-1"
+                        className="btn more-btn"
                       >
                         see more
                       </a>
@@ -134,26 +120,19 @@ const Index = () => {
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
-                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
-                        className="title-inner splitting-text-anim-2"
-                        data-splitting=""
+                        className="title-inner"
                       >
                         Fitness
                       </span>
                     </div>
-                    {/* <div className="subtitle scrolla-element-anim-1">
-                      Discover the art of fitness photography
-                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/fitness">
                       <a
-                        data-splitting=""
-                        className="btn more-btn scrolla-element-anim-1"
+                        className="btn more-btn"
                       >
                         see more
                       </a>
@@ -175,30 +154,22 @@ const Index = () => {
               fill
               priority
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
-                    {/* <div className="label scrolla-element-anim-1">photography</div> */}
                     <div className="title">
                       <span
-                        className="title-inner splitting-text-anim-2"
-                        data-splitting=""
+                        className="title-inner"
                       >
                         Fashion
                       </span>
                     </div>
-                    {/* <div className="subtitle scrolla-element-anim-1">
-                      Fashion photography and editorials.
-                    </div> */}
                   </div>
                   <div className="more-bts">
                     <Link legacyBehavior href="/fashion">
                       <a
-                        data-splitting=""
-                        className="btn more-btn scrolla-element-anim-1"
+                        className="btn more-btn"
                       >
                         see more
                       </a>
