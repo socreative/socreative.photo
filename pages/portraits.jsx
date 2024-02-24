@@ -80,27 +80,29 @@ const galleryImages = [
 
 ]
 
+const pageMeta = {
+  title: 'Portrait and family photographer in Poole, Dorset - Socreative Photography',
+  description: 'Portrait and family photographer in Poole, Dorset. To book a session call: 07466318246',
+  keywords: 'Poole portrait photographer, Poole family photographer, Dorset portrait photographer, Dorset photography workshops, Dorset photography',
+  image: 'https://socreativephoto.com/assets/images/photos/portrait/lena.jpg',
+}
+
 const Gallery3Column = () => {
   return (
     <Layout>
       <Head>
-        <title>
-          Portrait and family photographer in Poole, Dorset - Socreative Photography
-        </title>
-        <meta
-          name="description"
-          content="Portrait and family photographer in Poole, Dorset. To book a session call: 07466318246"
-          key="desc"
-        />
-        <meta name="keywords" content="Poole portrait photographer, Poole family photographer, Dorset portrait photographer, Dorset photography workshops, Dorset photography" />
-        <meta property="og:title" content="Portrait and family photographer in Poole, Dorset - Socreative Photography" />
-        <meta property="og:description" content="Portrait and family photographer in Poole, Dorset. To book a session call: 07466318246" />
-        <meta property="og:image" content="https://socreativephoto.com/assets/images/photos/portrait/lena.jpg" />
+        <title>{ pageMeta.title }</title>
+        <meta name="description" content={ pageMeta.description } key="desc" />
+        <meta name="keywords" content={ pageMeta.keywords } />
+        <meta property="og:title" content={ pageMeta.title } />
+        <meta property="og:description" content={ pageMeta.description } />
+        <meta property="og:image" content={ pageMeta.image } />
+        <meta property="twitter:title" content={ pageMeta.title } />
+        <meta property="twitter:description" content={ pageMeta.description } />
+        <meta property="twitter:image" content={ pageMeta.image } />
       </Head>
       <div className="wrapper">
-        {/* Section Started Heading */}
         <PageTitle title="Portraits" />
-        {/* Section Works */}
         <MasonryImageGallery
           images={galleryImages}
         />
