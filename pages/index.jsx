@@ -39,7 +39,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
-              quality={85}
+              quality={75}
               fill
               priority
             />
@@ -83,7 +83,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
-              quality={85}
+              quality={75}
               fill
               priority
             />
@@ -127,7 +127,7 @@ const Index = () => {
               style={{
                 objectFit: 'cover',
               }}
-              quality={85}
+              quality={75}
               fill
               priority
             />
@@ -166,12 +166,12 @@ const Index = () => {
           <SwiperSlide className="swiper-slide" data-color="white">
             <Image
               src="/assets/images/photos/glam.jpg"
-              alt="Socreative Photography - Fasion Photography"
+              alt="Socreative Photography - Fashion Photography"
               sizes="100vw"
               style={{
                 objectFit: 'cover',
               }}
-              quality={85}
+              quality={75}
               fill
               priority
             />
